@@ -1,0 +1,39 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 700px;
+    height: 400px;
+    margin: 60px auto;
+    box-shadow: 1px 1px 7px #333;
+    position: relative;
+    background-color: #b2fd72;
+    z-index: -4;
+}
+#countdown{
+    width: 200px;
+    height: 200px;
+    color: rgba(60,60,60,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    text-align: center;
+    line-height: 200px;
+    font-size: 200px;
+    font-weight: bold;
+}
+.cat{
+    width: 70px;
+    height: 70px;
+}
+.rat{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
